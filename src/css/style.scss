@@ -1,6 +1,7 @@
-$mainColor:#c9e23f;
+$mainColor: #c9e23f;
+$backgroundColor: #fafafa;
 
-
+// 全体設定
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +9,46 @@ $mainColor:#c9e23f;
 
 .wrapper{
     width: 1080px;
+    margin: 0 auto;
 }
+
+p{
+    font-size: 16px;
+}
+
+// ヘッダー
+.logo{
+    width: 208px;
+    padding: 36px 0;
+}
+
+// メインビジュアル
+#main-visual{
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+
+    .catchcopy{
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        width: 242px;
+        height: 92px;
+    }
+}
+
+// ナビゲーション
+.nav-list{
+    width: 180px;
+    display: flex;
+}
+
+// NEWS
+
+// FEATURES
+
+// SUBSCRIPTION
+
+// ITEMS
+
+// フッター

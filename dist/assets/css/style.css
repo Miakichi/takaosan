@@ -5,4 +5,35 @@
 
 .wrapper {
   width: 1080px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 16px;
+}
+
+.logo {
+  width: 208px;
+  padding: 36px 0;
+}
+
+#main-visual {
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#main-visual .catchcopy {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 242px;
+  height: 92px;
+}
+
+.nav-list {
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
