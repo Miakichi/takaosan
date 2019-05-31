@@ -17,7 +17,8 @@ $webFont: 'Montserrat', sans-serif;
 }
 
 p{
-    font-size: 16px;
+    font-size: 32px;
+    font-weight: 300;
 }
 
 .section-title-wrapper{
@@ -38,6 +39,10 @@ p{
     .wrapper{
         width: 100%;
         padding: 0 5%;
+    }
+
+    p{
+        font-size: 24px;
     }
 }
 
@@ -71,7 +76,6 @@ p{
           right: 24px;
         }
     }
-
 }
 
 // ナビゲーション
@@ -162,7 +166,38 @@ p{
 @media(max-width:768px){
     #news{
         width: 100%;
+        padding: 87px 32px 112px;
         margin: 0 auto;
+
+        .news-list{
+            margin: 40px auto 0;
+    
+            .news-item{
+                display: block;
+                margin-bottom: 24px;
+    
+                .news-time{
+                    display: block;
+                    font-size: 24px;
+                    height: 52px;
+                    width: 226px;
+                    padding: 17px 49px;
+                    letter-spacing: 0.05em;
+                }
+        
+                .news-text{
+                    display: block;
+                    margin: 23px 0 43px;
+                    font-weight: 300;
+                    font-size: 28px;
+                    line-height: 1.5;
+                }
+    
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        } 
     }
 }
 
@@ -202,6 +237,21 @@ p{
 }
 
 @media(max-width:768px){
+    #feature{
+        .feature-main{
+            display: block;
+        }
+
+        .feature-img{
+            margin-right: 0;
+            text-align: center;
+
+            img{
+                width: 90%;
+                height: auto;
+            }
+        }
+    }
 }
 
 // SUBSCRIPTION
@@ -276,6 +326,51 @@ p{
 }
 
 @media(max-width:768px){
+    #subscription{
+        .subscription-plans{
+            display: block;
+
+            .plan{
+                width: 100%;
+
+                .plan-img{
+                    width: 100%;
+                    height: auto;
+                }
+    
+                .plan-title{
+                    font-size: 44px;
+                    margin-top: 43px;
+                }
+    
+                .plan-price{
+                    font-family: $webFont;
+                    font-size: 34px;
+                    margin-top: 24px;
+                    // letter-spacing: 0.05em;
+    
+                    span{
+                        font-size: 28px;
+                        margin: 8px;
+                    }
+                }
+
+                .plan-text{
+                    margin-top: 58px;
+                    font-size: 32px;
+                }
+
+                .plan-btn{
+                    display: block;
+                    width: 296px;
+                    margin: 24px 20px 20px;
+                    background-color: #eeeeee;
+                    padding: 18px 0;
+                }
+            }
+        }
+
+    }
 }
 
 // ITEMS
@@ -308,6 +403,23 @@ p{
 }
 
 @media(max-width:768px){
+    #items{
+        width: 100%;
+
+        // .item-list{
+        //     .item{
+        //         a{
+        //             width: 234px;
+        //             height: 234px;
+        //         }
+    
+        //         img{
+        //             width: 234px;
+        //             height: 234px;
+        //         }
+        //     }
+        // }
+    }
 }
 
 // フッター

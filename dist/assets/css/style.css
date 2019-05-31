@@ -11,7 +11,8 @@
 }
 
 p {
-  font-size: 16px;
+  font-size: 32px;
+  font-weight: 300;
 }
 
 .section-title-wrapper {
@@ -32,6 +33,9 @@ p {
   .wrapper {
     width: 100%;
     padding: 0 5%;
+  }
+  p {
+    font-size: 24px;
   }
 }
 
@@ -153,7 +157,33 @@ p {
 @media (max-width: 768px) {
   #news {
     width: 100%;
+    padding: 87px 32px 112px;
     margin: 0 auto;
+  }
+  #news .news-list {
+    margin: 40px auto 0;
+  }
+  #news .news-list .news-item {
+    display: block;
+    margin-bottom: 24px;
+  }
+  #news .news-list .news-item .news-time {
+    display: block;
+    font-size: 24px;
+    height: 52px;
+    width: 226px;
+    padding: 17px 49px;
+    letter-spacing: 0.05em;
+  }
+  #news .news-list .news-item .news-text {
+    display: block;
+    margin: 23px 0 43px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  #news .news-list .news-item:last-child {
+    margin-bottom: 0px;
   }
 }
 
@@ -193,6 +223,20 @@ p {
 
 #feature .feature-detail .feature-detail-text {
   line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  #feature .feature-main {
+    display: block;
+  }
+  #feature .feature-img {
+    margin-right: 0;
+    text-align: center;
+  }
+  #feature .feature-img img {
+    width: 90%;
+    height: auto;
+  }
 }
 
 #subscription {
@@ -277,6 +321,43 @@ p {
   background: linear-gradient(90deg, #c9e23f 0%, #47e3dc 100%);
 }
 
+@media (max-width: 768px) {
+  #subscription .subscription-plans {
+    display: block;
+  }
+  #subscription .subscription-plans .plan {
+    width: 100%;
+  }
+  #subscription .subscription-plans .plan .plan-img {
+    width: 100%;
+    height: auto;
+  }
+  #subscription .subscription-plans .plan .plan-title {
+    font-size: 44px;
+    margin-top: 43px;
+  }
+  #subscription .subscription-plans .plan .plan-price {
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    margin-top: 24px;
+  }
+  #subscription .subscription-plans .plan .plan-price span {
+    font-size: 28px;
+    margin: 8px;
+  }
+  #subscription .subscription-plans .plan .plan-text {
+    margin-top: 58px;
+    font-size: 32px;
+  }
+  #subscription .subscription-plans .plan .plan-btn {
+    display: block;
+    width: 296px;
+    margin: 24px 20px 20px;
+    background-color: #eeeeee;
+    padding: 18px 0;
+  }
+}
+
 #items {
   width: 1080px;
   margin-bottom: 460px;
@@ -304,6 +385,12 @@ p {
 #items .item-list .item img {
   width: 180px;
   height: 180px;
+}
+
+@media (max-width: 768px) {
+  #items {
+    width: 100%;
+  }
 }
 
 footer {
