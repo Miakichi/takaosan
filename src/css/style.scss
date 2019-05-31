@@ -1,5 +1,6 @@
 $mainColor: #c9e23f;
 $backgroundColor: #fafafa;
+$textColor: #333;
 
 // 全体設定
 *{
@@ -39,7 +40,6 @@ p{
 
 // ナビゲーション
 .nav-list{
-    width: 180px;
     display: flex;
 }
 
