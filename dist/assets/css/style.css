@@ -451,6 +451,9 @@ p {
   }
   #items .item-list {
     margin-top: 40px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   #items .item-list .item a {
     width: 117px;
