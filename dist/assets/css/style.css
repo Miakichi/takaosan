@@ -401,7 +401,8 @@ p {
     margin-top: 12px;
   }
   #subscription .subscription-plans .plan .plan-price span {
-    font-size: 14px;
+    font-size: 28px;
+    font-weight: 600;
     margin: 8px;
   }
   #subscription .subscription-plans .plan .plan-text {
