@@ -89,6 +89,10 @@ p{
 }
 
 // ナビゲーション
+#toggle-button{
+    display: none;
+}
+
 #grobal-nav{
     margin-bottom: 56px;
 
@@ -138,7 +142,7 @@ p{
     }
 
     #grobal-nav{
-        display: block;
+        display: none;
 
         .nav-list{
             display: block;

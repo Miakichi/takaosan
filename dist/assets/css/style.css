@@ -77,6 +77,10 @@ p {
   }
 }
 
+#toggle-button {
+  display: none;
+}
+
 #grobal-nav {
   margin-bottom: 56px;
 }
@@ -123,7 +127,7 @@ p {
     z-index: 1;
   }
   #grobal-nav {
-    display: block;
+    display: none;
   }
   #grobal-nav .nav-list {
     display: block;

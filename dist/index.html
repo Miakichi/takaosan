@@ -145,6 +145,15 @@
     <!-- フッター -->
     <footer><small>COPYRIGHT TAKAOSAN ALL RIGHT RESERVED.</small></footer>
 
+    <script>
+    $('#toggle-button').on("click",function(){
+        $('#grobal-nav ul').slideToggle();
+        $('html').toggleClass('hidden');
+        $('body').toggleClass('hidden');
+        return false;
+    });
+
+    </script>
     </div>
 </body>
 </html>
