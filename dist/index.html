@@ -32,7 +32,7 @@
     <a id="toggle-button" href=""><img src="assets/img/menu.svg" alt=""></a>
     <nav id="grobal-nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="">HOME</a></li>
+            <li class="nav-item nav-item-active"><a href="">HOME</a></li>
             <li class="nav-item"><a href="">ABOUT</a></li>
             <li class="nav-item"><a href="">SHOP</a></li>
             <li class="nav-item"><a href="">ACCESS</a></li>
@@ -147,12 +147,11 @@
 
     <script>
     $('#toggle-button').on("click",function(){
-        $('#grobal-nav').slideToggle();
+        $('#grobal-nav ul').slideToggle();
         $('html').toggleClass('hidden');
         $('body').toggleClass('hidden');
         return false;
     });
-
     </script>
     </div>
 </body>

@@ -108,6 +108,10 @@ p {
   width: 180px;
 }
 
+#grobal-nav .nav-list .nav-item.nav-item-active a {
+  color: #c9e23f;
+}
+
 #grobal-nav .nav-list .nav-item a {
   display: block;
   text-decoration: none;
@@ -411,7 +415,7 @@ p {
   #subscription .subscription-plans .plan .plan-btn {
     display: block;
     width: 296px;
-    margin: 29px 20px 20px;
+    margin: 29px auto 20px;
     background-color: #eeeeee;
     padding: 18px 0;
   }

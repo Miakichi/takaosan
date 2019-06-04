@@ -113,6 +113,10 @@ p{
             font-weight: 600;
             width: 180px;
 
+            &.nav-item-active a{
+                color: $mainColor;
+            }
+
             & a{
                 display: block;
                 text-decoration: none;
@@ -126,10 +130,6 @@ p{
                 }
 
             }
-
-            // &:first-child{
-            //     color: $mainColor;
-            // }
 
             &:last-child{
                 border-right: 2px solid #575757;
@@ -177,8 +177,6 @@ p{
             }
         }
     }
-
-
 }
 
 // NEWS
@@ -433,7 +431,7 @@ p{
                 .plan-btn{
                     display: block;
                     width: 296px;
-                    margin: 29px 20px 20px;
+                    margin: 29px auto 20px;
                     background-color: #eeeeee;
                     padding: 18px 0;
                 }
